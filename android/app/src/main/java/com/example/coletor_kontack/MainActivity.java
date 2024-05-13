@@ -39,7 +39,7 @@ public class MainActivity extends FlutterActivity {
     protected void onStart() {
         super.onStart();
         checkPermissions();
-        KontaktSDK.initialize("");
+        KontaktSDK.initialize("OJWPPKwLEuahTooyXDKxRkuiYMwQTbVZ");
 
         proximityManager = ProximityManagerFactory.create(this);
         proximityManager.configuration().deviceUpdateCallbackInterval(10)
